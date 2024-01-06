@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/backbtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="←"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/backbtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintVertical_bias="0.112"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/custom_edittext"
+        android:backgroundTint="@color/lighter_pur"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="370dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="360dp"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="266dp"
+            android:layout_marginTop="419dp"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="269dp"
+            android:layout_marginTop="433dp"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="266dp"
+            android:layout_marginTop="405dp"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="333dp"
+            android:layout_marginTop="346dp"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="318dp"
+            android:layout_marginTop="348dp"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/custom_edittext5"
+            android:layout_marginLeft="304dp"
+            android:layout_marginTop="353dp"/>
+
+        <TextView
+            android:id="@+id/loginText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Sign up"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="First Name"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:drawablePadding="8dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/snm"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="165dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Last Name"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:drawablePadding="8dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:drawableLeft="@drawable/young_businessman_icon"
+            android:drawablePadding="8dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="13dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="295dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Password"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="360dp"
+            android:backgroundTint="@color/purple"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="20dp"
+            android:fontFamily="serif"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already registered?"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintVertical_bias="0.831"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/siText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintVertical_bias="0.831"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111"
+        card_view:srcCompat="@drawable/undraw_sign_up_n6im" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/edittext">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#232222"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Add New Data"
+        android:textColor="@color/purple"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/new_add_task_name"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Task Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/purple"
+        android:textColorHint="#7733C1"
+        android:paddingStart="20dp"
+        tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/new_add_task_des"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Task Description"
+        android:textColor="@color/purple"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColorHint="#7733C1"
+        android:paddingStart="20dp"
+        tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="Start Time"
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="112dp"
+            android:text="End Time"
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#D5C3EC"
+            app:strokeColor="@color/purple"
+            app:strokeWidth="3dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginStart="20dp">
+
+            <TextView
+                android:id="@+id/idTVSelectedTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="20sp"
+                android:textColor="@color/purple"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="20dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/idBtnPickTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▼"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="115dp"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#D5C3EC"
+            app:strokeColor="@color/purple"
+            app:strokeWidth="3dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginStart="48dp">
+
+            <TextView
+                android:id="@+id/idTVSelectedTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="20sp"
+                android:textColor="@color/purple"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="20dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/idBtnPickTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▼"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="115dp"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/new_add_task_btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#7733C1"
+        android:text="Done!!"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#D5C3EC"/>
+</LinearLayout>

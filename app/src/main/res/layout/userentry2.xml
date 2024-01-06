@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    app:strokeColor="#CFA7FC"
+    android:backgroundTint="#CFA7FC">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/baseline_circle_242"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="28dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:fontFamily="serif"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="48dp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/delbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_delete_24"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/baseline_edit_242"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="65dp"/>
+
+    <TextView
+        android:id="@+id/txt_task"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="140dp"
+        android:text="Ticket Booking"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/starttime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="140dp"
+        android:text="00:00"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:layout_marginStart="187dp"
+        android:text=". . . . ."
+        android:textSize="19sp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/endtime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="240dp"
+        android:text="00:00"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+
+</com.google.android.material.card.MaterialCardView>

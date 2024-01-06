@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="15dp"
+    app:strokeColor="@color/white"
+    android:backgroundTint="@color/white">
+
+    <TextView
+        android:id="@+id/starttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="28dp"
+        android:text="00:00"
+        android:textSize="19sp"
+        android:textColor="#A69292"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:text=":"
+        android:textSize="19sp"
+        android:textColor="#A69292"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/endtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="28dp"
+        android:text="00:00"
+        android:textSize="19sp"
+        android:textColor="#A69292"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/purple">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_edittext3"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/custom_edittext1"
+        android:layout_marginLeft="205dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/custom_edittext1"
+        android:layout_marginLeft="185dp"/>
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/custom_edittext1"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="35dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_edittext1"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/txt_task1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Ticket Booking"
+        android:textSize="19sp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/txt_des1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:text="Ticket Booking"
+        android:textSize="15sp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="21dp"/>
+
+</com.google.android.material.card.MaterialCardView>
+
+</com.google.android.material.card.MaterialCardView>
